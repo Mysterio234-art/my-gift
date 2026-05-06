@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(#3090eb, rgb(233, 43, 74));
+    color: #ffffff;
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+
+}
+
+p {
+    width: 500px;
+    height
+}
+
+#image {
+    border: 6px solid rgba(200, 38, 65, 0.728);
+    border-radius: 80svw;
+}
+
+h1,h2 {
+    text-shadow: 0px 0px 10px black;
+    
+}
+h2{
+    background: rgba(200, 38, 65, 0.728);
+    padding: 12px;
+    border-radius: 30px;
+}
+
+.gift {
+    border-radius:20cqmin;
+    background-image: url("gift2.webp");
+    background-size: cover;
+    width: 700px;
+    height: 400px;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+}
+
+.gift:hover {
+    background-image: url("proud.gif");
+    transition:cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    
+}
